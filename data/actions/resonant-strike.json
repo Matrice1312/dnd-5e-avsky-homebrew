@@ -1,0 +1,31 @@
+{
+  "action": [
+    {
+      "name": "Resonant Strike (Ranged)",
+      "source": "AVSKY",
+      "page": 1,
+      "type": "action",
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "ft",
+          "amount": 60
+        }
+      },
+      "attackType": "rangedSpellAttack",
+      "damage": [
+        {
+          "predefined": "1d8",
+          "type": "P"
+        },
+        {
+          "predefined": "1d8",
+          "type": "T"
+        }
+      ],
+      "entries": [
+        "You can unleash a focused burst of energy using your Pact Instrument. This attack has a range of 60 feet and deals 1d8 psychic or thunder damage (your choice, and you can change it whenever you finish a long rest). You use your Charisma modifier for the attack and damage rolls of this attack."
+      ]
+    }
+  ]
+}

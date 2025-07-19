@@ -1,0 +1,40 @@
+{
+  "item": [
+    {
+      "name": "Avsky's Pact Guitar",
+      "source": "AVSKY",
+      "page": 1,
+      "type": "W",
+      "rarity": "rare",
+      "reqAttune": true,
+      "weight": 2,
+      "value": 5000,
+      "entries": [
+        "A sleek, jet black, and unnervingly cold to the touch guitar. This unique instrument is your Pact Instrument, an extension of your warlock's will, resonating with the ancient power of the Spirit of the Crossroads. Its seven impossibly taut, glimmering strings hum with an internal arcane light.",
+        {
+          "type": "list",
+          "items": [
+            "This item functions as a **musical instrument (guitar)**. You are proficient with this instrument due to your Entertainer background and Pact of the Muse subclass.",
+            "It serves as your **spellcasting focus** for your warlock spells.",
+            "Due to your Pact of the Muse subclass feature, this instrument can **fluidly transform into any martial weapon** as part of an attack or when summoned. It adopts the damage die, damage type, and all associated properties (such as finesse, light, reach, thrown) of the chosen weapon.",
+            "While transformed, you can use your **Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls** of this weapon.",
+            "This weapon is considered **magical** for the purpose of overcoming resistance and immunity to non-magical attacks and damage.",
+            "Furthermore, due to the Improved Pact Weapon Eldritch Invocation, this instrument is a **+1 magic weapon**, granting a +1 bonus to attack and damage rolls made with it.",
+            "You can use a bonus action to summon or dismiss this instrument.",
+            "This instrument is used for the {@action Resonant Strike (Ranged)} action granted by your Pact of the Muse feature."
+          ]
+        }
+      ],
+      "weaponCategory": "martial",
+      "weaponType": "glaive",
+      "baseItem": "glaive",
+      "bonusWeaponAttack": "+1",
+      "bonusWeaponDamage": "+1",
+      "dmg1": "1d10",
+      "dmgType": "S",
+      "property": ["H", "R", "T"],
+      "recharge": "dawn",
+      "charges": 0
+    }
+  ]
+}

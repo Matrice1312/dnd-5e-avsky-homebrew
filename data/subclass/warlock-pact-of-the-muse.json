@@ -1,0 +1,93 @@
+{
+  "subclass": [
+    {
+      "name": "Pact of the Muse",
+      "shortName": "Muse",
+      "source": "AVSKY",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        {
+          "name": "Pact of the Muse",
+          "source": "AVSKY",
+          "page": 1,
+          "level": 1,
+          "entries": [
+            "You have made a sacred pact with an otherworldly patron of artistry, who has imbued your chosen artistic instrument or tool with a fraction of its divine inspiration. This tool is now your Pact Instrument, functioning as an extension of your artistic will and a conduit for potent magic. You gain proficiency with medium armor, shields, and martial weapons.",
+            {
+              "type": "list",
+              "items": [
+                "{@b Charisma-based Attacks:} While you are holding your Pact Instrument, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls of any weapon that is your Pact Instrument.",
+                "{@b Transformed Weapon:} Your Pact Instrument can fluidly transform into a magical melee weapon as part of an `attack` or when you summon it. When you gain this feature, choose one martial weapon from the Player's Handbook. Your Pact Instrument takes on the damage die, damage type, and all associated properties (such as finesse, light, reach, thrown) of that chosen weapon. It is considered magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage.",
+                "{@b Resonant Strike (Ranged):} You can also unleash a focused burst of energy. You can make a ranged spell attack using your Pact Instrument. This attack has a range of 60 feet and deals 1d8 psychic or thunder damage (your choice, and you can change it whenever you finish a long rest). You use your Charisma modifier for the attack and damage rolls of this attack.",
+                "{@b Arcane Focus:} Your Pact Instrument serves as your spellcasting focus for your warlock spells.",
+                "{@b Summon Instrument:} As a bonus action, you can summon your Pact Instrument, causing it to appear in your empty hand. You can also dismiss it as a bonus action."
+              ]
+            },
+            "Additionally, when you hit a creature with an attack made with your Pact Instrument, you can use a bonus action to mark the target with {@action Divine Mark}, a fragment of otherworldly dissonance. This mark lasts for 1 minute or until your concentration is broken (as if concentrating on a spell). While marked, your attacks against the target critically hit on a roll of 19 or 20, and you add your proficiency bonus to the damage roll of any attacks made with your Pact Instrument against it. If the marked target is reduced to 0 hit points, you gain temporary hit points equal to your warlock level + your Charisma modifier. You can use this feature once per short or long rest."
+          ],
+          "additionalSpells": [
+            {
+              "level": 1,
+              "spells": ["command", "dissonant whispers"]
+            }
+          ]
+        },
+        {
+          "name": "Harmonic Resonance",
+          "source": "AVSKY",
+          "page": 2,
+          "level": 6,
+          "entries": [
+            "Your patron's presence within your instrument allows you to resonate with the harmony or discord of the world. As a reaction when you or a creature you can see within 30 feet of you is subjected to the charmed or frightened condition, you can expend one warlock spell slot to play a counter-melody or create a jarring burst of anti-artistic energy. The affected creature immediately makes a new saving throw against the effect that caused the condition, with advantage. On a success, the condition ends.",
+            "Alternatively, as an action, you can present your Pact Instrument to create a 10-foot radius aura of artistic inspiration around you for 1 minute. Each friendly creature (including yourself) that starts its turn in the aura gains a bonus to its next attack roll equal to your proficiency bonus. Once you use this feature, you can't use it again until you finish a short or long rest."
+          ]
+        },
+        {
+          "name": "Artful Deception",
+          "source": "AVSKY",
+          "page": 3,
+          "level": 10,
+          "entries": [
+            "Your patron grants you a deeper understanding of the illusions that shape reality and the truths that hide within. You gain advantage on all Wisdom (Insight) and Charisma (Deception) checks.",
+            "Furthermore, as a bonus action, you can expend a warlock spell slot to weave a veil of enchanting dissonance. Until the end of your next turn, any creature that targets you with an attack or a spell must succeed on a Wisdom saving throw against your spell save DC or have disadvantage on the attack roll or saving throw. If the creature fails the saving throw, it is also distracted by the artistic display and cannot take reactions until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Masterpiece of Fate",
+          "source": "AVSKY",
+          "page": 3,
+          "level": 14,
+          "entries": [
+            "Your artistry has reached a zenith, capable of subtly twisting the very threads of fate and consequence. When a creature within 60 feet of you that you can see makes an attack roll, saving throw, or ability check, you can use your reaction to play a powerful, fate-altering chord on your Pact Instrument. You can choose to grant advantage or disadvantage to that roll. Once you use this feature, you cannot use it again until you finish a long rest.",
+            "Additionally, your connection to your patron provides you with an enhanced artistic resilience. You gain resistance to psychic damage, as your mind is fortified by the divine essence of creation."
+          ]
+        }
+      ],
+      "spellcastingAbility": "cha",
+      "expandedSpellList": [
+        {
+          "level": 1,
+          "spells": ["command", "dissonant whispers"]
+        },
+        {
+          "level": 2,
+          "spells": ["crown of madness", "shatter"]
+        },
+        {
+          "level": 3,
+          "spells": ["fear", "hypnotic pattern"]
+        },
+        {
+          "level": 4,
+          "spells": ["confusion", "compulsion"]
+        },
+        {
+          "level": 5,
+          "spells": ["dominate person", "hold monster"]
+        }
+      ]
+    }
+  ]
+}

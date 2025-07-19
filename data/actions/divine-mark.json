@@ -1,0 +1,33 @@
+{
+  "action": [
+    {
+      "name": "Divine Mark",
+      "source": "AVSKY",
+      "page": 1,
+      "type": "bonus",
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "ft",
+          "amount": 30
+        }
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "unit": "minute",
+          "amount": 1,
+          "upto": true
+        }
+      ],
+      "entries": [
+        "As a bonus action, you can mark a creature you can see within 30 feet. This mark lasts for 1 minute or until your concentration is broken (as if concentrating on a spell). While marked, your attacks against the target critically hit on a roll of 19 or 20, and you add your proficiency bonus to the damage roll of any attacks made with your Pact Instrument against it. If the marked target is reduced to 0 hit points, you gain temporary hit points equal to your warlock level + your Charisma modifier. You can use this feature once per short or long rest."
+      ],
+      "recharge": [
+        "short",
+        "long"
+      ],
+      "charges": 1
+    }
+  ]
+}

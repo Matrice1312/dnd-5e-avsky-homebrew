@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "json": "AvskyHB",
+      "abbreviation": "AVSKY",
+      "full": "Avsky's Homebrew Collection",
+      "url": "https://matrice1312.github.io/dnd-5e-avsky-homebrew/",
+      "authors": [
+        "Aria"
+      ],
+      "convertedBy": [
+        "Aria"
+      ],
+      "version": "1.0",
+      "color": "e6e6fa"
+    }
+  ]
+}

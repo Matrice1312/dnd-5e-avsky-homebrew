@@ -1,0 +1,10 @@
+{
+  "file": [
+    "data/items/avsky-pact-guitar.json",
+    "data/subclass/warlock-pact-of-the-muse.json",
+    "data/feats/resonance-of-the-crossroads.json",
+    "data/actions/divine-mark.json",
+    "data/actions/resonant-strike.json"
+  ],
+  "url": "data/_meta.json"
+}
